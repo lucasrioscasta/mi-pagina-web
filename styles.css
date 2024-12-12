@@ -1,0 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: blueviolet;
+}
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: yellow;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+section{
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px 20px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+}
+div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: auto;
+}

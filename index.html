@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi hoja de vida</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-
+        .l1{
+    color: red;
+        }
+        #l2{
+    color: orangered;
+        }
+        .l2{
+    color: indigo;
+        }
         table, thead, th{
             border: solid black 1px;
         }
         tbody, td{
             border: solid red 1px;
+        }
+        tbody tr:hover{
+            background-color: yellowgreen;
         }
     </style>
 </head>
@@ -18,25 +30,33 @@
     <header>
         <h1>Lucas Ríos Castañeda</h1>
         <p>Estudiante del curso del programación. Fotógrafo, Profesional en medios audiovisuales</p>
+        <nav>
+            <a href="#Formacion">Formación académica</a>
+            <a href="#Perfil">Perfil profesional</a>
+            <a href="#Habilidades">Habilidades y experiencia </a>
+            <a href="#Pasatiempos">Pasatiempos</a>
+            <a href="#Tareas">Tareas pendientes</a>
+            <a href="#Referencias">Referencias</a>
+        </nav>
     </header>
-    <section>
-<h2>Formación Académica </h2>
+    <section id="Formacion">
+<h2 class="l1">Formación Académica </h2>
 <p><b>Profesional en medios audiovisuales.  </b> Politécnico Grancolombiano</p>
     </section>
     <section>
        <div> <img src="yoc.jpg" alt="Foto del Usuario" width="150px" height="150px" align="center"></div>
-        <h1>Información de contacto</h1> 
-       <p>Correo<a href="mailto:lucasrioscasta@gmail.com">lucasrioscasta@gmail.com</a></p>
-       <p>LinkedIn<a href="https://linkedin.com/in/lucasrioscasta" target="_blank">lucasrioscasta</a></p>
-       <p>Instagram<a href="https://instagram.com/lucasrioscasta" target="_blank">lucasrioscasta</a></p>
-       <p>Facebook<a href="https://facebook.com/lucasrioscasta" target="_blank">lucasrioscasta</a></p>
+        <h1 class="l1">Información de contacto</h1> 
+       <p id="l2">Correo<a href="mailto:lucasrioscasta@gmail.com">lucasrioscasta@gmail.com</a></p>
+       <p id="l2">LinkedIn<a href="https://linkedin.com/in/lucasrioscasta" target="_blank">lucasrioscasta</a></p>
+       <p id="l2">Instagram<a href="https://instagram.com/lucasrioscasta" target="_blank">lucasrioscasta</a></p>
+       <p id="l2">Facebook<a href="https://facebook.com/lucasrioscasta" target="_blank">lucasrioscasta</a></p>
     </section>
-    <section>
-        <h2>Perfil profesional</h2>
+    <section id="Perfil">
+        <h2 class="l1">Perfil profesional</h2>
         <p>Fotógrafo, Profesional en Medios Audiovisuales con énfasis y experiencia en fotografía para eventos, reportería gráfica, retrato, paisaje, producto, moda, publicitaria y comercial. Además como camarógrafo, videógrafo y creador múltimedia para clientes independientes, agencias de mercadeo (tradicional, digital), publicidad, productoras audiovisuales y para medios de comunicación. Con habilidades en medios digitales y conocimientos en Software de diseño y edición, también cuento con equipo profesional de fotografía.</p>
     </section>
     <section id="Habilidades">
-        <h2>Habilidades y experiencia</h2>
+        <h2 class="l1">Habilidades y experiencia</h2>
         <ul>
             <li>Ofimática</li>
             <li>Edición y postproducción digital</li>
@@ -45,9 +65,9 @@
             <li>Diseño</li>
         </ul>
     </section>
-    <section>
+    <section id="Pasatiempos">
         <aside>
-            <h2>Pasatiempos</h2>
+            <h2 class="l1">Pasatiempos</h2>
             <ul>
                 <li>Lectura</li>
                 <li>Ciclismo</li>
@@ -55,9 +75,9 @@
             </ul>
         </aside>
     </section>
-    <section>
+    <section id="Tareas">
         <aside>
-            <h2>Tareas pendientes</h2>
+            <h2 class="l1">Tareas pendientes</h2>
             <ol type="1">
                 <li>Recoger la basura</li>
                 <li>Lavar la ropa</li>
@@ -67,13 +87,13 @@
         <table>
             <thead>
                 <tr>
-                    <th><h3>Lunes</h3></th>
-                    <th><h3>Martes</h3></th>
-                    <th><h3>Miércoles</h3></th>
-                    <th><h3>Jueves</h3></th>
-                    <th><h3>viernes</h3></th>
-                    <th><h3>Sábado</h3></th>
-                    <th><h3>Domingo</h3></th>
+                    <th><h3 class="l2">Lunes</h3></th>
+                    <th><h3 class="l2">Martes</h3></th>
+                    <th><h3 class="l2">Miércoles</h3></th>
+                    <th><h3 class="l2">Jueves</h3></th>
+                    <th><h3 class="l2">viernes</h3></th>
+                    <th><h3 class="l2">Sábado</h3></th>
+                    <th><h3 class="l2">Domingo</h3></th>
                 </tr>
             </thead>
             <tbody>
@@ -98,7 +118,7 @@
         </table>
     </section>
     <section id="Referencias">
-        <h2>Referencias personales</h2>
+        <h2 class="l1">Referencias personales</h2>
         <p>Mamá: Miriam Castañeda</p>
     </section>
 </body>
